@@ -40,7 +40,7 @@ download_release() {
 	filename="$2"
 
 	# https://github.com/jqlang/jq/releases/download/jq-1.7.1/jq-macos-arm64
-	url="$GH_REPO/releases/download/${version}/jq-macos-arm64"
+	url="$GH_REPO/releases/download/jq-${version}/jq-macos-arm64"
 
 	echo "* Downloading $TOOL_NAME release $version..."
 	curl "${curl_opts[@]}" -o "$filename" -C - "$url" || fail "Could not download $url"

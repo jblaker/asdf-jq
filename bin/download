@@ -22,4 +22,4 @@ download_release "$ASDF_INSTALL_VERSION" "$release_file"
 # rm "$release_file"
 
 # Rename
-cp "$release_file" jq
+# cp "$release_file" jq

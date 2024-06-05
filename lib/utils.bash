@@ -3,8 +3,8 @@
 set -euo pipefail
 
 GH_REPO="https://github.com/jqlang/jq"
-TOOL_NAME="jq"
-TOOL_TEST="jq --help"
+TOOL_NAME="jq-macos-arm64"
+TOOL_TEST="jq-macos-arm64 --help"
 
 fail() {
 	echo -e "asdf-$TOOL_NAME: $*"
@@ -65,7 +65,7 @@ install_version() {
 
 		echo "$TOOL_NAME $version installation was successful!"
 	) || (
-		# rm -rf "$install_path"
+		rm -rf "$install_path"
 		fail "An error occurred while installing $TOOL_NAME $version."
 	)
 }

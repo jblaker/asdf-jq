@@ -2,7 +2,7 @@
 
 # asdf-jq [![Build](https://github.com/jblaker/asdf-jq/actions/workflows/build.yml/badge.svg)](https://github.com/jblaker/asdf-jq/actions/workflows/build.yml) [![Lint](https://github.com/jblaker/asdf-jq/actions/workflows/lint.yml/badge.svg)](https://github.com/jblaker/asdf-jq/actions/workflows/lint.yml)
 
-[jq](https://github.com/tomaz/jq) plugin for the [asdf version manager](https://asdf-vm.com).
+[jq](https://github.com/jqlang/jq) plugin for the [asdf version manager](https://asdf-vm.com).
 
 </div>
 

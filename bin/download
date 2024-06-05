@@ -21,5 +21,3 @@ download_release "$ASDF_INSTALL_VERSION" "$release_file"
 # Rename
 mv "$release_file" jq
 
-# Remove the tar.gz file since we don't need to keep it
-rm "$release_file"
